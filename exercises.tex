@@ -1,9 +1,11 @@
 \documentclass[a4paper,12pt,leqno,fleqn]{article}
 \usepackage[polish]{babel}
-\usepackage[utf8x]{inputenc}
+\usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{tabularx}
 \usepackage{multicol}
+
+\def\tabularxcolumn#1{m{#1}}
 
 \begin{document}
 
@@ -92,7 +94,42 @@ Usuń niewymierność z mianownika
     \frac{\sqrt{3}-3\sqrt{2}}{\sqrt{7}+2\sqrt{3}}
   \end{equation}
 
+\end{tabularx}
+
+\newpage
+Oblicz
+
+\begin{tabularx}{\linewidth}{@{}XX@{}}
+
+  \begin{equation}
+    \left(\frac{3+\sqrt{2}}{2}\right)
+  \end{equation}
+&
+  \begin{equation}
+    \left(\frac{1+\sqrt{3}}{\sqrt{2}}\right)
+  \end{equation}
+\\
+  \begin{equation}
+    3\cdot\sqrt[3]{27}+3
+  \end{equation}
+&
+  \begin{equation}
+    \frac{1}{8}\left(4-\frac{\sqrt{2}}{3}\right)^2
+  \end{equation}
+\\
+  \begin{equation}
+    -\left[\sqrt{2}-\sqrt{3}\cdot(\sqrt{6}-1)\right]
+  \end{equation}
+&
+  \begin{equation}
+    (\sqrt{2}+\sqrt{3})(\sqrt{2}-\sqrt{3})
+  \end{equation}
+\\
+  \begin{equation}
+    (3\cdot3^{\frac{1}{2}}+3^{\frac{1}{3}})\cdot\sqrt{3}
+  \end{equation}
 
 \end{tabularx}
+
 
 \end{document}
